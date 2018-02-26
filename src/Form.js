@@ -1,10 +1,11 @@
 import React from 'react';
+import './Form.css';
 
 export default function Form() {
   return (
     <form>
-      <input type="number" />
-      <input type="submit" />
+      <input className="number" type="number" />
+      <input className="button" type="submit" />
     </form>
   )
 }
